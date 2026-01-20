@@ -1,0 +1,42 @@
+.footer {
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: #555;
+    box-shadow: 0px 24px 48px rgba(230, 235, 245, 0.4), 0px 1px 4px rgba(227, 235, 252, 1)
+}
+
+.footer__copyright {
+    margin-bottom: 8px;
+}
+
+.footer__contacts {
+    margin-bottom: 12px;
+}
+
+.footer__link {
+    color: #007acc;
+    margin: 0 8px;
+    text-decoration: none;
+}
+
+.footer__link:hover {
+    text-decoration: underline;
+}
+
+.footer__socials {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.footer__icon svg {
+    fill: #555;
+    width: 24px;
+    height: 24px;
+    transition: fill 0.3s;
+}
+
+.footer__icon:hover svg {
+    fill: #007acc;
+}
